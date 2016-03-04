@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.memorandumdemo.MainActivity" >
+
+    <item
+        android:id="@+id/add1"
+        android:icon="@android:drawable/ic_input_add"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/app_name"
+        android:visible="true"/>
+
+</menu>

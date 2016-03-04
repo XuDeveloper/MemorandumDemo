@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Never Forget</string>
+    <string name="drawer_open">Draw Open</string>
+    <string name="drawer_close">Draw Close</string>
+    <string name="alert_dialog_name">Never Forget</string>
+    <string name="positive">查看</string>
+    <string name="negative">忽略</string>
+    <string name="back">返回</string>
+    <string name="edit">编辑</string>
+    <string name="save">Save</string>
+    <string name="alert">闹钟</string>
+    <string name="title_hint">请输入标题</string>
+    <string name="content_hint">请输入内容</string>
+    <string name="listView_title">提醒</string>
+    <string name="widget">Never Forget</string>
+    <string name="set">设置</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_alert">取消闹钟</string>
+
+</resources>
