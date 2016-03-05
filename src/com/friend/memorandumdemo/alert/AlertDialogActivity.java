@@ -94,28 +94,6 @@ public class AlertDialogActivity extends Activity {
 				// 启动应用
 				Intent intent = new Intent(AlertDialogActivity.this,
 						EditActivity.class);
-				// Bundle bundle = new Bundle();
-				// bundle.putString(
-				// "title",
-				// getIntent().getBundleExtra(
-				// "android.intent.action.ALARMRECEIVER")
-				// .getString("title"));
-				// bundle.putString(
-				// "content",
-				// getIntent().getBundleExtra(
-				// "android.intent.action.ALARMRECEIVER")
-				// .getString("content"));
-				// bundle.putString(
-				// "alerttime",
-				// getIntent().getBundleExtra(
-				// "android.intent.action.ALARMRECEIVER")
-				// .getString("alerttime"));
-				// bundle.putString(
-				// "millis",
-				// getIntent().getBundleExtra(
-				// "android.intent.action.ALARMRECEIVER")
-				// .getString("millis"));
-				// intent.putExtra("android.intent.extra.INTENT", bundle);
 				intent.putExtra(Const.EDIT_FLAG, data);
 				startActivity(intent); // 启动转到的Activity
 				finish();
