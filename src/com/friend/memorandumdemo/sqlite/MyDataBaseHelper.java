@@ -17,10 +17,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class MyDataBaseHelper extends SQLiteOpenHelper {
 
 	private static final int VERSION = 1; // ∞Ê±æ∫≈
+	
 	// Ω®±Ì”Ôæ‰
-	// private static final String CREATE =
-	// "create table user(title varchar(30),content varchar(100),alerttime varchar(30),millis varchar(30))";
-
 	public static final String CREATE = "create table User ("
 			+ "_index integer, " + "title text, " + "content text, "
 			+ "alerttime text, " + "millis text)";
@@ -46,7 +44,6 @@ public class MyDataBaseHelper extends SQLiteOpenHelper {
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		// TODO Auto-generated method stub
 
 	}
 
